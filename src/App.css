@@ -2094,6 +2094,49 @@ body.light { background: var(--cream); color: var(--ink); }
   .achievements-featured { grid-template-columns: 1fr; }
   .achievements-compact { grid-template-columns: 1fr; }
   .edu-grid { grid-template-columns: 1fr; }
+  .achievement-featured-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px 18px;
+    position: relative;
+  }
+  .achievement-featured-badge { font-size: 1.8rem; }
+  .achievement-featured-tag {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: .65rem;
+    padding: 3px 9px;
+    letter-spacing: .14em;
+  }
+  .achievement-featured-content { width: 100%; }
+  .achievement-featured-content h3 {
+    font-size: 1.05rem;
+    padding-left: 12px;
+    padding-right: 110px;
+    line-height: 1.35;
+  }
+  .achievement-featured-content h3::before {
+    width: 3px;
+    top: 3px;
+    bottom: 3px;
+  }
+  .achievement-featured-content p {
+    font-size: .9rem;
+    line-height: 1.6;
+  }
+  .achievement-compact-card {
+    flex-wrap: wrap;
+    padding: 14px 16px;
+    gap: 12px;
+  }
+  .achievement-compact-date {
+    margin-left: 0;
+    margin-top: 4px;
+    width: 100%;
+    order: 3;
+  }
   .hero-layout {
     grid-template-columns: 1fr;
     gap: 36px;
@@ -2190,6 +2233,50 @@ body.light { background: var(--cream); color: var(--ink); }
   .about-side { display: flex; justify-content: center; }
 
   .achievements-featured { grid-template-columns: 1fr; }
+  .achievement-featured-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px 16px;
+  }
+  .achievement-featured-badge { font-size: 1.8rem; }
+  .achievement-featured-tag {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: .62rem;
+    padding: 3px 8px;
+    letter-spacing: .12em;
+  }
+  .achievement-featured-content { width: 100%; }
+  .achievement-featured-content h3 {
+    font-size: 1rem;
+    padding-left: 12px;
+    padding-right: 100px;
+    line-height: 1.35;
+  }
+  .achievement-featured-content h3::before {
+    width: 3px;
+    top: 3px;
+    bottom: 3px;
+  }
+  .achievement-featured-content p {
+    font-size: .85rem;
+    line-height: 1.55;
+  }
+
+  .achievement-compact-card {
+    flex-wrap: wrap;
+    padding: 14px 16px;
+    gap: 12px;
+  }
+  .achievement-compact-date {
+    margin-left: 0;
+    margin-top: 4px;
+    width: 100%;
+    order: 3;
+  }
+
   .timeline { padding-left: 30px; }
   .contact-form-v2 .form-row,
   .contact-form-v2 .form-group { padding-left: 14px; padding-right: 14px; }
