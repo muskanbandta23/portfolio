@@ -3,31 +3,37 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 const Projects = () => {
   const projects = [
     {
-      title: 'InkGen : AI Content Engine',
-      description: 'Modular pipeline generating multi-format ebooks, blogs, and social assets using a 4-step workflow (research, outline, plan, write) with automated quality checks. Features a real-time dashboard with SSE streaming.',
-      tech: ['Python', 'OpenAI', 'Claude', 'Gemini', 'SSE', 'Quarto', 'D2'],
+      title: 'InkGen : AI Content Engine (LLM-automation)',
+      description: 'Built a 4-stage LLM pipeline (research, outline, plan, write) orchestrating OpenAI and Claude with automated quality checks. Real-time SSE dashboard streams progress. End-to-end content from one prompt to publishable ebook, blog or social asset, with no manual editing in the loop.',
+      tech: ['Python', 'OpenAI', 'Claude', 'SSE', 'Quarto', 'D2'],
       github: 'https://github.com/muskanbandta23/inkgen',
       live: 'https://output-iota-nine.vercel.app/index.html'
+    },
+    {
+      title: 'Competitor Intelligence Dashboard',
+      description: 'Autonomous competitor-monitoring system that scrapes 23+ sources via Google News RSS and Reddit API, with zero manual work after deploy. Replaces hours of manual research at ZopDev with a live, self-publishing intel dashboard.',
+      tech: ['Python', 'GitHub Actions', 'RSS', 'Reddit API', 'CI/CD'],
+      github: 'https://github.com/muskanbandta23/zopnight-competitor-intel',
+      live: 'https://muskanbandta23.github.io/zopnight-competitor-intel/'
+    },
+    {
+      title: 'LinkedIn Research Assistant (AI Automation for GTM)',
+      description: 'Lead-discovery automation for GTM with ICP similarity scoring against 273+ cloud companies. BrightData and Google Search agents handle the prospecting; my scoring layer ranks and filters by region. Replaces hours of manual LinkedIn prospecting per region.',
+      tech: ['Python', 'BrightData API', 'Google Search', 'GitHub Pages'],
+      github: 'https://github.com/muskanbandta23/linkedin-research-assistant',
+      live: 'https://muskanbandta23.github.io/linkedin-research-assistant/'
+    },
+    {
+      title: 'Reddit Scout Bot, Daily Engagement',
+      description: 'Automated Google Apps Script bot that scans Reddit every day and emails a curated digest of the best Cloud and DevOps posts, surfacing exactly where the community is talking about infra, FinOps and platform engineering. Runs on a daily trigger, no manual scraping needed.',
+      tech: ['Google Apps Script', 'Reddit API', 'Gmail API', 'Automation'],
+      github: 'https://github.com/muskanbandta23/Reddit-automation'
     },
     {
       title: "Hosteller's Emporium",
       description: 'E-commerce platform for university students to buy and sell campus products with secure authentication and responsive UI.',
       tech: ['React', 'Node.js', 'CSS'],
       github: 'https://github.com/muskanbandta23/Hosteller-s-Emporium'
-    },
-    {
-      title: 'Competitor Intelligence Dashboard',
-      description: 'AI-driven competitor monitoring dashboard tracking 23+ sources via Google News RSS, Reddit API, and automated GitHub Actions CI/CD pipeline with 4x daily updates.',
-      tech: ['Python', 'GitHub Actions', 'RSS', 'Reddit API', 'CI/CD'],
-      github: 'https://github.com/muskanbandta23/zopnight-competitor-intel',
-      live: 'https://muskanbandta23.github.io/zopnight-competitor-intel/'
-    },
-    {
-      title: 'LinkedIn Research Assistant',
-      description: 'Full-stack lead discovery tool with ICP similarity scoring, region-based filtering, and a database of 273+ cloud companies using BrightData API and Google Search.',
-      tech: ['Python', 'BrightData API', 'Google Search', 'GitHub Pages'],
-      github: 'https://github.com/muskanbandta23/linkedin-research-assistant',
-      live: 'https://muskanbandta23.github.io/linkedin-research-assistant/'
     },
   ]
 

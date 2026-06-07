@@ -6,25 +6,25 @@ const Skills = () => {
       icon: <FiCode size={20} />,
       title: 'Languages & Frameworks',
       subtitle: 'Building blocks of my code',
-      skills: ['Java', 'C++ (Fundamentals)', 'JavaScript', 'HTML/CSS', 'React', 'Express', 'Node.js']
-    },
-    {
-      icon: <FiDatabase size={20} />,
-      title: 'Technologies & Databases',
-      subtitle: 'Powering the backend',
-      skills: ['AWS', 'SQL', 'DBMS', 'OOP', 'Computer Networking', 'AI/ML', 'Git']
-    },
-    {
-      icon: <FiTool size={20} />,
-      title: 'Tools & Platforms',
-      subtitle: 'My daily toolkit',
-      skills: ['VS Code', 'IntelliJ IDEA', 'GitHub', 'Google Colab', 'Figma', 'Google AI Studio', 'Anthropic Claude']
+      skills: ['Java', 'C++ (Fundamentals)', 'JavaScript', 'HTML/CSS', 'React', 'Node.js']
     },
     {
       icon: <FiCpu size={20} />,
       title: 'Product & AI Automation',
       subtitle: 'Simple strategies powered by AI',
-      skills: ['Research', 'Product Discovery', 'Competitor Analysis', 'AI Automation']
+      skills: ['Research', 'Product Discovery', 'Competitor Analysis', 'AI Automation', 'GTM Automation']
+    },
+    {
+      icon: <FiDatabase size={20} />,
+      title: 'Technologies & Databases',
+      subtitle: 'Powering the backend',
+      skills: ['SQL', 'DBMS', 'OOP', 'Computer Networking', 'AI/ML', 'Git']
+    },
+    {
+      icon: <FiTool size={20} />,
+      title: 'Tools & Platforms',
+      subtitle: 'My daily toolkit',
+      skills: ['VS Code', 'IntelliJ IDEA', 'GitHub', 'Google Colab', 'Figma', 'Google AI Studio', 'Anthropic Claude', 'Zoho CRM']
     }
   ]
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -12,15 +12,13 @@ import Footer from './components/Footer'
 import './App.css'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true)
-
   useEffect(() => {
-    document.body.className = darkMode ? 'dark' : 'light'
-  }, [darkMode])
+    document.body.className = 'dark'
+  }, [])
 
   return (
-    <div className={`app ${darkMode ? 'dark' : 'light'}`}>
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+    <div className="app dark">
+      <Navbar />
       <Hero />
       <About />
       <Experience />
