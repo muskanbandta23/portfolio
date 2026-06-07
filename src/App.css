@@ -2097,24 +2097,24 @@ body.light { background: var(--cream); color: var(--ink); }
   .achievement-featured-card {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 10px;
     padding: 18px 18px;
     position: relative;
   }
   .achievement-featured-badge { font-size: 1.8rem; }
   .achievement-featured-tag {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    font-size: .65rem;
-    padding: 3px 9px;
-    letter-spacing: .14em;
+    position: static;
+    align-self: flex-start;
+    font-size: .68rem;
+    padding: 4px 10px;
+    letter-spacing: .16em;
+    margin: 0;
   }
   .achievement-featured-content { width: 100%; }
   .achievement-featured-content h3 {
     font-size: 1.05rem;
     padding-left: 12px;
-    padding-right: 110px;
+    padding-right: 0;
     line-height: 1.35;
   }
   .achievement-featured-content h3::before {
@@ -2236,23 +2236,23 @@ body.light { background: var(--cream); color: var(--ink); }
   .achievement-featured-card {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 10px;
     padding: 18px 16px;
   }
   .achievement-featured-badge { font-size: 1.8rem; }
   .achievement-featured-tag {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    font-size: .62rem;
-    padding: 3px 8px;
-    letter-spacing: .12em;
+    position: static;
+    align-self: flex-start;
+    font-size: .65rem;
+    padding: 4px 10px;
+    letter-spacing: .14em;
+    margin: 0;
   }
   .achievement-featured-content { width: 100%; }
   .achievement-featured-content h3 {
     font-size: 1rem;
     padding-left: 12px;
-    padding-right: 100px;
+    padding-right: 0;
     line-height: 1.35;
   }
   .achievement-featured-content h3::before {
