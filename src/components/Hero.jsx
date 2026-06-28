@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiDownload } from 'react-icons/fi'
 import heroPhoto from '../assets/hero-photo.png'
 
 const ROLES = [
@@ -45,6 +45,9 @@ const Hero = () => {
           <div className="hero-ctas">
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
             <a href="#projects" className="btn btn-ghost">See Work</a>
+            <a href={`${import.meta.env.BASE_URL}Muskan-Bandta-Resume.pdf`} download className="btn btn-ghost">
+              Download CV <FiDownload size={15} />
+            </a>
           </div>
           <div className="hero-socials">
             <a href="https://linkedin.com/in/muskan-bandta2004/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
