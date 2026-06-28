@@ -48,6 +48,7 @@ const Achievements = () => {
       <div className="container">
         <h2 className="section-title h-mega">Achievements &amp; Events</h2>
 
+        <h3 className="ach-group-label">Work &amp; Industry Events</h3>
         <div className="achievements-featured">
           {featured.map((item, index) => (
             <div className="achievement-featured-card" key={index}>
@@ -66,6 +67,7 @@ const Achievements = () => {
           ))}
         </div>
 
+        <h3 className="ach-group-label ach-group-label-mt">Academic &amp; Hackathons</h3>
         <div className="achievements-compact">
           {compact.map((item, index) => (
             <div className="achievement-compact-card" key={index}>

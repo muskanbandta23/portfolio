@@ -17,14 +17,15 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <a href="#" className="nav-logo">
-          MUSKAN<span className="nav-logo-dot">.</span>
+          Muskan Bandta
         </a>
 
         <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
-          {navLinks.map(link => (
+          {navLinks.map((link, i) => (
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
+              data-index={`0${i + 1}`}
               onClick={() => setMenuOpen(false)}
             >
               {link}

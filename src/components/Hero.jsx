@@ -63,16 +63,6 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className="hero-marquee">
-        <div className="marquee-track">
-          <span>AI Automation</span><span>LLM Orchestration</span><span>Cloud Engineering</span>
-          <span>Frontend Development</span><span>SaaS</span><span>Workflow Automation</span>
-          <span>FinOps</span><span>UI / UX</span>
-          <span>AI Automation</span><span>LLM Orchestration</span><span>Cloud Engineering</span>
-          <span>Frontend Development</span><span>SaaS</span><span>Workflow Automation</span>
-          <span>FinOps</span><span>UI / UX</span>
-        </div>
-      </div>
     </section>
   )
 }

@@ -13,11 +13,11 @@ import './App.css'
 
 function App() {
   useEffect(() => {
-    document.body.className = 'dark'
+    document.body.className = 'light'
   }, [])
 
   return (
-    <div className="app dark">
+    <div className="app light">
       <Navbar />
       <Hero />
       <About />

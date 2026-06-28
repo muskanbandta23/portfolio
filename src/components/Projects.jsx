@@ -5,21 +5,21 @@ const Projects = () => {
     {
       title: 'InkGen : AI Content Engine (LLM-automation)',
       description: 'Built a 4-stage LLM pipeline (research, outline, plan, write) orchestrating OpenAI and Claude with automated quality checks. Real-time SSE dashboard streams progress. End-to-end content from one prompt to publishable ebook, blog or social asset, with no manual editing in the loop.',
-      tech: ['Python', 'OpenAI', 'Claude', 'SSE', 'Quarto', 'D2'],
+      tech: ['OpenAI', 'Claude', 'Quarto', 'D2'],
       github: 'https://github.com/muskanbandta23/inkgen',
       live: 'https://output-iota-nine.vercel.app/index.html'
     },
     {
       title: 'Competitor Intelligence Dashboard',
       description: 'Autonomous competitor-monitoring system that scrapes 23+ sources via Google News RSS and Reddit API, with zero manual work after deploy. Replaces hours of manual research at ZopDev with a live, self-publishing intel dashboard.',
-      tech: ['Python', 'GitHub Actions', 'RSS', 'Reddit API', 'CI/CD'],
+      tech: ['GitHub Actions', 'RSS', 'Reddit API', 'CI/CD'],
       github: 'https://github.com/muskanbandta23/zopnight-competitor-intel',
       live: 'https://muskanbandta23.github.io/zopnight-competitor-intel/'
     },
     {
       title: 'LinkedIn Research Assistant (AI Automation for GTM)',
       description: 'Lead-discovery automation for GTM with ICP similarity scoring against 273+ cloud companies. BrightData and Google Search agents handle the prospecting; my scoring layer ranks and filters by region. Replaces hours of manual LinkedIn prospecting per region.',
-      tech: ['Python', 'BrightData API', 'Google Search', 'GitHub Pages'],
+      tech: ['BrightData API', 'Google Search', 'GitHub Pages'],
       github: 'https://github.com/muskanbandta23/linkedin-research-assistant',
       live: 'https://muskanbandta23.github.io/linkedin-research-assistant/'
     },
