@@ -367,13 +367,17 @@
   color: var(--accent);
 }
 .timeline-date {
-  display: block;
+  display: inline-block;
   font-family: var(--mono);
   font-size: 0.72rem;
+  font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--soft);
-  margin: 6px 0 20px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  margin: 8px 0 20px;
 }
 
 .timeline-list { margin-bottom: 22px; }

@@ -16,6 +16,7 @@
   --soft: #8b857a;
   --accent: #7a1f1f;      /* oxblood */
   --accent-hover: #5e1717;
+  --accent-soft: rgba(122, 31, 31, 0.09);
   --radius: 2px;
   --maxw: 1280px;
 
