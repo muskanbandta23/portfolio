@@ -5,20 +5,17 @@ const Education = () => {
     {
       institution: 'Chitkara Institute of Engineering & Technology',
       degree: 'B.E. Computer Science',
-      period: 'Sept 2022 — June 2026',
-      description: 'Core CS, cloud, AI/ML, frontend'
+      period: '2022 — 2026'
     },
     {
       institution: 'DAV Public School, New Shimla',
       degree: 'CBSE Class XII',
-      period: '2022',
-      description: 'Science stream with Computer Science'
+      period: '2022'
     },
     {
       institution: 'DAV Public School, New Shimla',
       degree: 'CBSE Class X',
-      period: '2020',
-      description: 'Foundation in Maths & Science'
+      period: '2020'
     }
   ]
 
@@ -37,7 +34,6 @@ const Education = () => {
               </div>
               <h3 className="edu-card-degree">{edu.degree}</h3>
               <p className="edu-card-school">{edu.institution}</p>
-              <p className="edu-card-desc">{edu.description}</p>
             </div>
           ))}
         </div>

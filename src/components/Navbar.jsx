@@ -11,15 +11,11 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const navLinks = ['About', 'Experience', 'Skills', 'Projects', 'Education', 'Contact']
+  const navLinks = ['About', 'Experience', 'Skills', 'Projects', 'Achievements', 'Education', 'Contact']
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
-        <a href="#" className="nav-logo">
-          Muskan Bandta
-        </a>
-
         <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
           {navLinks.map((link, i) => (
             <a

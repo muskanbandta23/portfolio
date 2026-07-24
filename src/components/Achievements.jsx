@@ -28,6 +28,37 @@ const Achievements = () => {
     }
   ]
 
+  const press = [
+    {
+      badge: '📰',
+      title: 'JetBrains seeks to unify fragmented AI-based software development',
+      description: 'Quoted in InfoWorld as cloud associate at ZopDev, on the fragmentation of AI coding tools becoming a governance and cost problem for enterprises.',
+      outlet: 'InfoWorld',
+      link: 'https://www.infoworld.com/article/4195002/jetbrains-seeks-to-unify-fragmented-ai-based-software-development-with-governance-suite.html'
+    },
+    {
+      badge: '📰',
+      title: 'Model Context Protocol is going stateless to make scaling simpler',
+      description: 'Quoted in CIO as cloud associate at ZopDev, on MCP\'s move to stateless architecture: "the session-based model made sense when MCP servers were local processes — in production, it became an operational tax."',
+      outlet: 'CIO',
+      link: 'https://www.cio.com/article/4201258/model-context-protocol-is-going-stateless-to-make-scaling-simpler-2.html'
+    },
+    {
+      badge: '📰',
+      title: 'Meta launches low-cost Muse Spark 1.1 amid enterprise AI spending scrutiny',
+      description: 'Quoted in Computerworld on enterprise AI adoption — price is one input in total cost of ownership, alongside risk, control and switching cost.',
+      outlet: 'Computerworld',
+      link: 'https://www.computerworld.com/article/4195528/meta-launches-low-cost-muse-spark-1-1-as-enterprise-ai-spending-comes-under-scrutiny-2.html'
+    },
+    {
+      badge: '📰',
+      title: "OpenAI's Codex context reduction for GPT-5.6 sparks dissatisfaction",
+      description: 'Quoted in InfoWorld as cloud associate at ZopDev, on developer reaction to context-window reductions in AI coding tools.',
+      outlet: 'InfoWorld',
+      link: 'https://www.infoworld.com/article/4198811/openais-codex-context-reduction-for-gpt-5-6-sparks-dissatisfaction-among-developers.html'
+    }
+  ]
+
   const compact = [
     {
       badge: '💻',
@@ -63,6 +94,22 @@ const Achievements = () => {
                 )}
               </div>
               <span className="achievement-tag achievement-featured-tag">{item.tag}</span>
+            </div>
+          ))}
+        </div>
+
+        <h3 className="ach-group-label ach-group-label-mt">Mentions in the Tech World</h3>
+        <div className="achievements-compact">
+          {press.map((item, index) => (
+            <div className="achievement-compact-card" key={index}>
+              <span className="achievement-compact-badge">{item.badge}</span>
+              <div className="achievement-compact-content">
+                <h4>{item.title}</h4>
+                <p>{item.description}</p>
+                <a href={item.link} target="_blank" rel="noopener noreferrer" className="achievement-featured-link">
+                  Read on {item.outlet} <FiExternalLink size={14} />
+                </a>
+              </div>
             </div>
           ))}
         </div>

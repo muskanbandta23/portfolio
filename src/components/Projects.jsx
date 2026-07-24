@@ -3,7 +3,7 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 const Projects = () => {
   const projects = [
     {
-      title: 'InkGen : AI Content Engine (LLM-automation)',
+      title: 'InkGen : Content Engine (LLM-automation)',
       description: 'Built a 4-stage LLM pipeline (research, outline, plan, write) orchestrating OpenAI and Claude with automated quality checks. Real-time SSE dashboard streams progress. End-to-end content from one prompt to publishable ebook, blog or social asset, with no manual editing in the loop.',
       tech: ['OpenAI', 'Claude', 'Quarto', 'D2'],
       github: 'https://github.com/muskanbandta23/inkgen',
@@ -24,10 +24,11 @@ const Projects = () => {
       live: 'https://muskanbandta23.github.io/linkedin-research-assistant/'
     },
     {
-      title: 'Reddit Scout Bot, Daily Engagement',
-      description: 'Automated Google Apps Script bot that scans Reddit every day and emails a curated digest of the best Cloud and DevOps posts, surfacing exactly where the community is talking about infra, FinOps and platform engineering. Runs on a daily trigger, no manual scraping needed.',
-      tech: ['Google Apps Script', 'Reddit API', 'Gmail API', 'Automation'],
-      github: 'https://github.com/muskanbandta23/Reddit-automation'
+      title: 'ZopMatch — Real-time Multiplayer Memory Game',
+      description: 'Memory game with three modes: solo against the clock, pass-and-play on one device, and online rooms for 2–4 players via 4-letter codes. Built with Node.js and WebSockets, so all players see the same board update live in real time. Deployed on ZopCloud.',
+      tech: ['Node.js', 'WebSockets', 'ZopCloud'],
+      github: 'https://github.com/muskanbandta23/zopmatch',
+      live: 'https://zopmatch-3239e0.zopcloud.zop.dev/'
     },
     {
       title: "Hosteller's Emporium",

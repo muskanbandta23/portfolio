@@ -16,15 +16,11 @@ const About = () => {
                 C++, frontend development and cloud computing.
               </p>
               <p>
-                I have also worked on and have hands-on experience in <strong>AI Automation</strong>,
-                orchestrating existing AI models and automation software to streamline business
-                workflows so teams can move faster with less manual lift. I've contributed across
-                AI/ML, SQL, DBMS and Computer Networks, and I'm an effective communicator with both
-                technical and non-technical stakeholders.
+                I've contributed across AI/ML, SQL, DBMS and Computer Networks, and I'm an
+                effective communicator with both technical and non-technical stakeholders.
               </p>
               <p>
-                Currently, I'm working as a <strong>Cloud Associate at ZopDev</strong>,
-                developing my expertise in cloud computing and SaaS development, working on{' '}
+                Currently, I'm working as a <strong>Cloud Associate at ZopDev</strong>, working on{' '}
                 <strong>cloud infrastructure</strong> and <strong>AI-driven automations</strong>.
               </p>
             </div>
