@@ -19,6 +19,7 @@ const Experience = () => {
               <ul className="timeline-list">
                 <li>Gain hands-on experience in cloud architecture, deployment pipelines, and system optimization.</li>
                 <li>Work on cloud infrastructure and backend systems to support scalable SaaS solutions.</li>
+                <li>Contributed to open-source integrations for ZopDay, enabling one-click deployment of open-source projects: 13 merged pull requests across repositories with ~85k combined GitHub stars, including Pixelfed, RSS-Bridge, Ever Gauzy, HeyForm, PasswordPusher and Kroki.</li>
                 <li>Assisting in analyzing client cloud environments and understanding infrastructure requirements.</li>
                 <li>Worked on GTM strategy and AI automation initiatives to streamline workflows and drive business impact.</li>
                 <li>Researching cloud technologies, infrastructure trends, and cost-optimization strategies to support solution design and client recommendations.</li>
@@ -30,6 +31,7 @@ const Experience = () => {
                 <span>SaaS</span>
                 <span>FinOps</span>
                 <span>Infrastructure</span>
+                <span>Open Source</span>
               </div>
             </div>
           </div>

@@ -4,10 +4,16 @@ const Projects = () => {
   const projects = [
     {
       title: 'InkGen : Content Engine',
-      description: 'Built a 4-stage LLM pipeline (research, outline, plan, write) orchestrating OpenAI and Claude with automated quality checks. Real-time SSE dashboard streams progress. End-to-end content from one prompt to publishable ebook, blog or social asset, with no manual editing in the loop.',
+      description: 'Built a 4-stage LLM pipeline (research, outline, plan, write) orchestrating OpenAI and Claude with automated quality checks. Real-time SSE dashboard streams progress. One-command content syndication to platforms such as DEV.to and Substack. End-to-end content from one prompt to publishable ebook, blog or social asset, with no manual editing in the loop.',
       tech: ['OpenAI', 'Claude', 'Quarto', 'D2'],
       github: 'https://github.com/muskanbandta23/inkgen',
       live: 'https://output-iota-nine.vercel.app/index.html'
+    },
+    {
+      title: 'AI Automation — Product Video Pipeline',
+      description: 'End-to-end AI automation that turns a product feature into a finished marketing video with no manual editing. Scene composition is written as code in Remotion and rendered to MP4, Playwright captures live product screens on every run, and word-level speech transcription places every cut. One source composition outputs 4 deliverables across YouTube, Shorts, Reels and LinkedIn in both 9:16 and 16:9.',
+      tech: ['Remotion', 'Playwright', 'Whisper', 'ffmpeg'],
+      github: 'https://github.com/muskanbandta23/ai-automation-product-video-pipeline'
     },
     {
       title: 'Competitor Intelligence Dashboard',
